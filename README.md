@@ -1,76 +1,111 @@
 # SQL Data Warehouse and Analytics Project
 
-This repository presents a complete end-to-end solution that I implemented — from ingesting raw data and building a structured Data Warehouse, to developing SQL-based analytical reports.
+This repository contains a complete end-to-end solution that I implemented — from ingesting raw data to building a structured Data Warehouse, and developing SQL-based analytical reports.  
 The project follows industry best practices in data engineering, data modeling, and data analytics.
 
 ---
+
 ## Data Architecture
 
-The data architecture in this project follows the Medallion Architecture with three layers: Bronze, Silver, and Gold:
+The data architecture follows the Medallion Architecture pattern, which organizes data into three layers: **Bronze**, **Silver**, and **Gold**.
 
-<img width="4105" height="2805" alt="Architecture" src="https://github.com/user-attachments/assets/49f89d43-8e8a-482c-816f-31a1ccc10a01" />
+<img width="4105" height="2805" alt="Architecture" src="https://github.com/user-attachments/assets/70fea6bb-f0e0-4d89-8ed5-61da7142e928" />
 
+*Overview of the Medallion Architecture layers.*
 
-1. **Bronze Layer**: Raw data ingested from external sources (e.g., CSV files) with minimal processing. Used as the landing zone for historical record-keeping and traceability.
-2. **Silver Layer**: Cleaned, standardized, and transformed data. This layer applies business logic, data validation, enrichment, and formatting to make the data analytics-ready.
-3. **Gold Layer**: Curated data optimized for reporting and analytics. Includes dimensional models, fact tables, and business views used in dashboards and insights generation.
+1. **Bronze Layer**  
+   Raw data ingested from external sources (e.g., CSV files) with minimal processing. This layer serves as the landing zone for historical record-keeping and traceability.
+
+2. **Silver Layer**  
+   Cleaned, standardized, and transformed data. Business logic, data validation, enrichment, and formatting are applied to make the data analytics-ready.
+
+3. **Gold Layer**  
+   Curated and optimized data for reporting and analytics. This includes dimensional models, fact tables, and business views used in dashboards and insights generation.
 
 ---
-### Additional Diagrams
 
-Here are more visuals to explain the data integration, mart structure, and data flow in this project:
+## Additional Diagrams
 
-#### Data Integration Diagram
+The following diagrams illustrate other key components of the project:
 
-<img width="5030" height="2805" alt="Data Integration" src="https://github.com/user-attachments/assets/ed379f97-ef2d-46c9-902a-4544aec1a1f5" />
+### Data Integration Diagram
 
+<img width="5030" height="2805" alt="Data Integration" src="https://github.com/user-attachments/assets/06af6ff5-6117-40b7-b399-120abca91ae0" />
+* Data integration flow from source systems to warehouse.*
 
-#### Sales Data Mart Diagram
+### Sales Data Mart Diagram
 
-<img width="5650" height="2745" alt="Data Mart" src="https://github.com/user-attachments/assets/23688821-5e02-436d-b720-61e71e4f49db" />
+<img width="5650" height="2745" alt="Data Mart" src="https://github.com/user-attachments/assets/f43b2fff-830b-443c-b9cc-25e9a6350072" />
+*Structure of the Sales Data Mart.*
 
+### Data Flow Diagram
 
-#### Data Flow Diagram
+<img width="3755" height="2005" alt="DataFlow" src="https://github.com/user-attachments/assets/8c78a69b-ded7-4ddb-8866-66213c5627e6" />
+*Overview of the data flow across the system.*
 
-<img width="3755" height="2005" alt="DataFlow" src="https://github.com/user-attachments/assets/a1d43a08-1424-48d6-93c4-3a9cea906da8" />
-
+---
 
 ## Project Overview
 
-This project involves:
+This project encompasses:
 
-1. **Data Architecture**: Structuring the warehouse following best practices to manage raw, cleansed, and curated data layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Created fact and dimension tables optimized for performance and analytical use cases.
-4. **Analytics & Reporting**: Developed SQL-based reports to uncover trends, performance metrics, customer segmentation, and other business insights.
+1. **Data Architecture**  
+   Structuring the warehouse using best practices to manage raw, cleansed, and curated data layers.
+
+2. **ETL Pipelines**  
+   Extracting, transforming, and loading data from source systems into the warehouse.
+
+3. **Data Modeling**  
+   Creating fact and dimension tables optimized for performance and analytical use cases.
+
+4. **Analytics & Reporting**  
+   Developing SQL-based reports that uncover trends, performance metrics, customer segmentation, and other business insights.
 
 ---
 
-### Building the Data Warehouse (Data Engineering)
+## Building the Data Warehouse (Data Engineering)
 
-#### Objective
+### Objective
+
 Design and implement a modern data warehouse using SQL Server, consolidating data from ERP and CRM systems to support analytics and decision-making.
 
-#### Specifications:
-- **Data Ingestion**: Loaded CSV files from two source systems (ERP and CRM) into staging tables.
-- **Data Quality**: Identified and fixed data quality issues (e.g., nulls, inconsistent formats, invalid values).
-- **Data Integration**: Merged both sources into a unified analytical model using Medallion architecture (Bronze, Silver, Gold).
-- **Scope**:  Worked only with the latest snapshot (no historical tracking required).
-- **Documentation**: Structured and documented the data model to ensure it’s understandable for both technical and non-technical users.
+### Specifications
+
+- **Data Ingestion**  
+  Loaded CSV files from two source systems (ERP and CRM) into staging tables.
+
+- **Data Quality**  
+  Identified and resolved data quality issues such as null values, inconsistent formats, and invalid entries.
+
+- **Data Integration**  
+  Merged both sources into a unified analytical model following the Medallion Architecture (Bronze, Silver, Gold).
+
+- **Scope**  
+  Focused on the latest data snapshot; historical tracking was not required.
+
+- **Documentation**  
+  Structured and documented the data model to ensure clarity for both technical and non-technical users.
 
 ---
 
-### Analytics & Reporting (Data Analysis)
+## Analytics & Reporting (Data Analysis)
 
-#### Objective
+### Objective
 
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**: Segment customers by lifecycle, age, recency, and spending patterns (VIP, Regular, New).
-- **Product Performance**: Evaluate top- and low-performing products using revenue contribution, sales quantity, and activity lifespan.
-- **Sales Trends**: Analyze monthly and yearly trends, cumulative growth, and part-to-whole contributions.
+Develop SQL-based analytics to provide detailed insights into:
 
-These insights provide stakeholders with clear, data-driven metrics to support strategic business decisions and drive performance.
+- **Customer Behavior**  
+  Segment customers by lifecycle stage, age, recency, and spending patterns (e.g., VIP, Regular, New).
 
+- **Product Performance**  
+  Evaluate top- and low-performing products using revenue contribution, sales quantity, and activity lifespan.
+
+- **Sales Trends**  
+  Analyze monthly and yearly trends, cumulative growth, and part-to-whole contributions.
+
+These insights empower stakeholders with clear, data-driven metrics to support strategic business decisions and enhance performance.
+
+---
 
 ## Acknowledgements
 
