@@ -21,19 +21,16 @@ The data architecture in this project follows the Medallion Architecture with th
 Here are more visuals to explain the data integration, mart structure, and data flow in this project:
 
 #### Data Integration Diagram
-| ----------- |
 
 <img width="5030" height="2805" alt="Data Integration" src="https://github.com/user-attachments/assets/ed379f97-ef2d-46c9-902a-4544aec1a1f5" />
 
 
 #### Data Mart Diagram
-| ----------- |
 
 <img width="5650" height="2745" alt="Data Mart" src="https://github.com/user-attachments/assets/23688821-5e02-436d-b720-61e71e4f49db" />
 
 
 #### Data Flow Diagram
-| ----------- |
 
 <img width="3755" height="2005" alt="DataFlow" src="https://github.com/user-attachments/assets/c5640eea-7412-494d-ac5d-1ae41e8511a5" />
 
