@@ -7,6 +7,7 @@ The project follows industry best practices in data engineering, data modeling, 
 ## Data Architecture
 
 The data architecture in this project follows the Medallion Architecture with three layers: Bronze, Silver, and Gold:
+
 <img width="4105" height="2805" alt="Architecture" src="https://github.com/user-attachments/assets/49f89d43-8e8a-482c-816f-31a1ccc10a01" />
 
 
@@ -20,13 +21,22 @@ The data architecture in this project follows the Medallion Architecture with th
 Here are more visuals to explain the data integration, mart structure, and data flow in this project:
 
 #### Data Integration Diagram
-![Data Integration Diagram](<img width="5030" height="2805" alt="Data Integration" src="https://github.com/user-attachments/assets/06a67e85-7c03-40dd-8659-b9fd7b14c47c" />)
+| ----------- |
+
+<img width="5030" height="2805" alt="Data Integration" src="https://github.com/user-attachments/assets/ed379f97-ef2d-46c9-902a-4544aec1a1f5" />
+
 
 #### Data Mart Diagram
-![Data Mart Diagram](<img width="5650" height="2745" alt="Data Mart" src="https://github.com/user-attachments/assets/8c1aebb4-c8db-4cd0-b200-6d810f934186" />)
+| ----------- |
+
+<img width="5650" height="2745" alt="Data Mart" src="https://github.com/user-attachments/assets/23688821-5e02-436d-b720-61e71e4f49db" />
+
 
 #### Data Flow Diagram
-![Data Flow Diagram](<img width="3755" height="2005" alt="DataFlow" src="https://github.com/user-attachments/assets/76080d5b-ddd0-4708-9e9e-cb0c7ec525d7" />)
+| ----------- |
+
+<img width="3755" height="2005" alt="DataFlow" src="https://github.com/user-attachments/assets/c5640eea-7412-494d-ac5d-1ae41e8511a5" />
+
 
 ## Project Overview
 
