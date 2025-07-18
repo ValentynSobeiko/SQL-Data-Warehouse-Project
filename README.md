@@ -7,6 +7,7 @@ The project follows industry best practices in data engineering, data modeling, 
 ## Data Architecture
 
 The data architecture in this project follows the Medallion Architecture with three layers: Bronze, Silver, and Gold:
+
 ![Data Architecture](<img width="4105" height="2805" alt="Architecture" src="https://github.com/user-attachments/assets/774d2696-cf32-4e82-add3-e68f38ebb5f4" />)
 
 1. **Bronze Layer**: Raw data ingested from external sources (e.g., CSV files) with minimal processing. Used as the landing zone for historical record-keeping and traceability.
@@ -14,6 +15,19 @@ The data architecture in this project follows the Medallion Architecture with th
 3. **Gold Layer**: Curated data optimized for reporting and analytics. Includes dimensional models, fact tables, and business views used in dashboards and insights generation.
 
 ---
+### Additional Diagrams
+
+Here are more visuals to explain the data integration, mart structure, and data flow in this project:
+
+#### Data Integration Diagram
+![Data Integration Diagram](<img width="5030" height="2805" alt="Data Integration" src="https://github.com/user-attachments/assets/06a67e85-7c03-40dd-8659-b9fd7b14c47c" />)
+
+#### Data Mart Diagram
+![Data Mart Diagram](<img width="5650" height="2745" alt="Data Mart" src="https://github.com/user-attachments/assets/8c1aebb4-c8db-4cd0-b200-6d810f934186" />)
+
+#### Data Flow Diagram
+![Data Flow Diagram](<img width="3755" height="2005" alt="DataFlow" src="https://github.com/user-attachments/assets/76080d5b-ddd0-4708-9e9e-cb0c7ec525d7" />)
+
 ## Project Overview
 
 This project involves:
