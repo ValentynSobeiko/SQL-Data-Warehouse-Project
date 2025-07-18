@@ -32,7 +32,7 @@ Here are more visuals to explain the data integration, mart structure, and data 
 
 #### Data Flow Diagram
 
-<img width="3755" height="2005" alt="DataFlow" src="https://github.com/user-attachments/assets/c5640eea-7412-494d-ac5d-1ae41e8511a5" />
+<img width="3755" height="2005" alt="DataFlow" src="https://github.com/user-attachments/assets/a1d43a08-1424-48d6-93c4-3a9cea906da8" />
 
 
 ## Project Overview
