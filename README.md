@@ -44,9 +44,6 @@ This project involves:
 3. **Data Modeling**: Created fact and dimension tables optimized for performance and analytical use cases.
 4. **Analytics & Reporting**: Developed SQL-based reports to uncover trends, performance metrics, customer segmentation, and other business insights.
 
-
-##  Project Requirements
-
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
