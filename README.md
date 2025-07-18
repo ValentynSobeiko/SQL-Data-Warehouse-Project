@@ -51,7 +51,7 @@ This project involves:
 #### Objective
 Design and implement a modern data warehouse using SQL Server, consolidating data from ERP and CRM systems to support analytics and decision-making.
 
-#### Specifications
+#### Specifications:
 - **Data Ingestion**: Loaded CSV files from two source systems (ERP and CRM) into staging tables.
 - **Data Quality**: Identified and fixed data quality issues (e.g., nulls, inconsistent formats, invalid values).
 - **Data Integration**: Merged both sources into a unified analytical model using Medallion architecture (Bronze, Silver, Gold).
@@ -63,6 +63,7 @@ Design and implement a modern data warehouse using SQL Server, consolidating dat
 ### Analytics & Reporting (Data Analysis)
 
 #### Objective
+
 Develop SQL-based analytics to deliver detailed insights into:
 - **Customer Behavior**: Segment customers by lifecycle, age, recency, and spending patterns (VIP, Regular, New).
 - **Product Performance**: Evaluate top- and low-performing products using revenue contribution, sales quantity, and activity lifespan.
