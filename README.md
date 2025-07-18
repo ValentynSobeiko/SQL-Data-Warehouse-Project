@@ -25,7 +25,7 @@ Here are more visuals to explain the data integration, mart structure, and data 
 <img width="5030" height="2805" alt="Data Integration" src="https://github.com/user-attachments/assets/ed379f97-ef2d-46c9-902a-4544aec1a1f5" />
 
 
-#### Data Mart Diagram
+#### Sales Data Mart Diagram
 
 <img width="5650" height="2745" alt="Data Mart" src="https://github.com/user-attachments/assets/23688821-5e02-436d-b720-61e71e4f49db" />
 
