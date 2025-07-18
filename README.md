@@ -7,8 +7,8 @@ The project follows industry best practices in data engineering, data modeling, 
 ## Data Architecture
 
 The data architecture in this project follows the Medallion Architecture with three layers: Bronze, Silver, and Gold:
+<img width="4105" height="2805" alt="Architecture" src="https://github.com/user-attachments/assets/49f89d43-8e8a-482c-816f-31a1ccc10a01" />
 
-![Data Architecture](<img width="4105" height="2805" alt="Architecture" src="https://github.com/user-attachments/assets/294e2a11-d1a8-4189-b600-bd72bb1e0b47" />)
 
 1. **Bronze Layer**: Raw data ingested from external sources (e.g., CSV files) with minimal processing. Used as the landing zone for historical record-keeping and traceability.
 2. **Silver Layer**: Cleaned, standardized, and transformed data. This layer applies business logic, data validation, enrichment, and formatting to make the data analytics-ready.
