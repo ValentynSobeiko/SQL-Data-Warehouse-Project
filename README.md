@@ -110,4 +110,5 @@ These insights empower stakeholders with clear, data-driven metrics to support s
 ## Acknowledgements
 
 A big thank you to Baraa Khatib Salkini (Data With Baraa) for the inspiring course and valuable resources that fueled this project.
+
 [The Complete SQL Bootcamp](https://www.udemy.com/course/the-complete-sql-bootcamp-30-hours-go-from-zero-to-hero/)
