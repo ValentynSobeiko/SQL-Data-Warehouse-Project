@@ -1,6 +1,6 @@
 # SQL Data Warehouse and Analytics Project
 
-This repository presents a complete end-to-end solution that I designed and implemented — from ingesting raw data and building a structured Data Warehouse, to developing SQL-based analytical reports.
+This repository presents a complete end-to-end solution that I implemented — from ingesting raw data and building a structured Data Warehouse, to developing SQL-based analytical reports.
 The project follows industry best practices in data engineering, data modeling, and data analytics.
 
 ---
