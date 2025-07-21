@@ -9,7 +9,8 @@ The project follows industry best practices in data engineering, data modeling, 
 
 The data architecture follows the Medallion Architecture pattern, which organizes data into three layers: **Bronze**, **Silver**, and **Gold**.
 
-<img width="4105" height="2805" alt="Architecture" src="https://github.com/user-attachments/assets/70fea6bb-f0e0-4d89-8ed5-61da7142e928" />
+<img width="10110" height="7300" alt="Architecture Diagram NEW" src="https://github.com/user-attachments/assets/98fadcfd-182f-4bb8-9a36-ca333054a727" />
+
 
 *Overview of the Medallion Architecture layers.*
 
@@ -30,17 +31,17 @@ The following diagrams illustrate other key components of the project:
 
 ### Data Integration Diagram
 
-<img width="5030" height="2805" alt="Data Integration" src="https://github.com/user-attachments/assets/06af6ff5-6117-40b7-b399-120abca91ae0" />
+<img width="7410" height="5010" alt="Data Integration Diagram NEW" src="https://github.com/user-attachments/assets/463d5096-046b-47f8-8309-ab8db7a770b4" />
 * Data integration flow from source systems to warehouse.*
 
 ### Sales Data Mart Diagram
 
-<img width="5650" height="2745" alt="Data Mart" src="https://github.com/user-attachments/assets/f43b2fff-830b-443c-b9cc-25e9a6350072" />
+<img width="11100" height="5540" alt="Data Mart Diagram NEW" src="https://github.com/user-attachments/assets/f62047ff-9a66-40de-b3e3-f05a43a2a211" />
 *Structure of the Sales Data Mart.*
 
 ### Data Flow Diagram
 
-<img width="3755" height="2005" alt="DataFlow" src="https://github.com/user-attachments/assets/8c78a69b-ded7-4ddb-8866-66213c5627e6" />
+<img width="7020" height="3910" alt="DataFlow Diagram NEW" src="https://github.com/user-attachments/assets/ff78b67b-899c-46a4-b695-243171d5de49" />
 *Overview of the data flow across the system.*
 
 ---
